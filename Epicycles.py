@@ -107,4 +107,4 @@ frames = 500
 time = np.linspace(0, 2.2*tau, num=frames)
 
 anim = anim.FuncAnimation(fig, make_anim, frames= tqdm(range(frames), initial=0, position=0), fargs=(time, coeffs),interval=20)
-anim.save(f'D:\software\{name}.mp4', writer=writer)
+anim.save(f'your_save_location/{name}.mp4', writer=writer)
